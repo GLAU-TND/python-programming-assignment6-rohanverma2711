@@ -1,0 +1,7 @@
+n=int(input("enter the no of bottles"))
+s=list(map(int,input().split()))
+d={}
+for i in s:
+    d[i]=s.count(i)
+l=list(d.values())
+print(max(l))
